@@ -10,17 +10,7 @@ var computerChoices = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','
 
 	var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 	
-
-	// var newGuessesLeft = function () {
-	// 	document.querySelector('#guessLeft').innerHTML = "Guesses Left:" + guessesLeft;
-	// }
 	
-
-	// var newGuessedLetters = function() {
-	// 	document.querySelector('#yourGuessesSoFar').innerHTML = "Your Guesses so far: " + guessedLetters.join(',');
-	// }
-	
-
 	var newGuessesLeft = function () {
 		document.getElementById('guessesLeft').innerHTML = guessesLeft;
 	};

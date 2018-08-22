@@ -51,7 +51,6 @@ var computerChoices = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','
 			if (userGuess == computerGuess)
 			{
 				wins++;
-				// document.querySelector('#wins').innerHTML = "Wins: " + wins;
 				document.getElementById('wins').innerHTML = wins;
 				reset();
 			}
@@ -60,7 +59,6 @@ var computerChoices = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','
 		else if(guessesLeft === 0)
 		{
 			losses++;
-			// document.querySelector('#losses').innerHTML = "Losses: " + losses;
 			document.getElementById('losses').innerHTML = losses;
 			reset();
 		}
